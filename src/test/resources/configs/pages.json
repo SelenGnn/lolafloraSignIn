@@ -1,0 +1,22 @@
+{
+  "Lolaflora": {
+    "urlKey": "https://www.lolaflora.com/login",
+    "elementTimeOut": 10,
+    "elements": {
+      "email": "#EmailLogin",
+      "password": "#Password",
+      "signIn": "//*[@id=\"userLogin\"]/div[6]/button",
+      "errorMessage": ".modal-body",
+      "EmailLoginError": "#EmailLogin-error",
+      "PasswordError": "#Password-error",
+      "thePage": "//*[@class='main-eng js-load-complete']",
+      "userMenu": ".user-menu__title",
+      "forgotPassword": ".login__forgot-password",
+      "forgotPasswordText": "//*[@class='form-password-recovery js-password-recovery is-hidden']/child::div[1]",
+      "forgotPasswordMail": "#Mail",
+      "sendButton": "//*[@class='btn btn-lg btn-primary form-password-recovery__btn js-password-recovery-button']",
+      "resetPasswordText": "//*[@class='password-recovery-result js-password-recovery-result is-hidden is-visible']",
+      "MailError": "#Mail-error"
+    }
+  }
+}

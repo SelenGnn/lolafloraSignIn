@@ -1,0 +1,14 @@
+{
+  "wrongEmail": {
+    "email": "slngnn@gmail.com",
+    "password": "Aresmert07"
+  },
+  "wrongPassword": {
+    "email": "selengonen02@gmail.com",
+    "password": "shjshkjs"
+  },
+  "correctUser": {
+    "email": "selengonen02@gmail.com",
+    "password": "Aresmert07"
+  }
+}
