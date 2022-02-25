@@ -32,14 +32,14 @@ public class Steps {
     public static WebDriverWait wait;
     public static RemoteWebDriver driver;
 
-    /*@After
+    @After
     public void tearDown() {
         try {
             driver.close();
         } catch (WebDriverException e) {
             e.printStackTrace();
         }
-    }*/
+    }
 
     @Given("I open browser")
     public void OpenBrowser() {
